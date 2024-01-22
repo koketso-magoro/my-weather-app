@@ -59,20 +59,20 @@ p.current-details {
 .current-details strong {
   color: #f65281;
 }
-.current-temp {
+.current-temperature {
   font-size: 48px;
 }
-.current-temp-icon {
+.current-temperature-icon {
   position: relative;
   top: -7px;
   font-size: 40px;
 }
-.current-temp-value {
+.current-temperature-value {
   font-family: "Roboto", sans-serif;
   font-size: 80px;
   font-weight: bold;
 }
-.current-temp-degree {
+.current-temperature-degree {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
   position: relative;
