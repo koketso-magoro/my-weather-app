@@ -1,0 +1,80 @@
+body {
+  background-color: #f9f7fd;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding-top: 20px;
+}
+footer p {
+  text-align: center;
+  color: #a8a6b4;
+}
+a {
+  color: #885df1;
+}
+.container {
+  background-color: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+}
+.search-button {
+  color: white;
+  background-color: #885df1;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: 5px;
+}
+.current-weather {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+p.current-details {
+  color: #a8a6b4;
+  line-height: 24px;
+}
+.current-details strong {
+  color: #f65281;
+}
+.current-temp {
+  font-size: 48px;
+}
+.current-temp-icon {
+  position: relative;
+  top: -7px;
+  font-size: 40px;
+}
+.current-temp-value {
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+.current-temp-degree {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
